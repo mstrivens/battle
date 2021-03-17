@@ -13,7 +13,7 @@
 # it.
 ENV['RACK_ENV'] = 'test'
 
-require Battle
+# require Battle
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 require 'capybara'
